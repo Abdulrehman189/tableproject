@@ -1,0 +1,138 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  text-align: center;
+  margin: 44px 0px;
+}
+
+
+.form-control {
+height: 40px;
+width: 410px;
+box-shadow: none;
+color: #969fa4;
+}
+.form-group{
+  margin-top: 22px;
+}
+.form-control:focus {
+border-color: #5cb85c;
+}
+.form-control, .btn {        
+border-radius: 3px;
+}
+.signup-form {
+/* width: 450px; */
+margin: 0 auto;
+padding: 0px 0;
+font-size: 15px;
+/* box-shadow: 1px 1px 10px 2px #ffdc12; */
+}
+.signup-form h2 {
+color: #636363;
+margin: 0 0 15px;
+position: relative;
+text-align: center;
+}
+
+.signup-form p {
+  color: #636363;
+  font-size: 18px;
+  margin: 0 0 15px;
+  position: relative;
+  text-align: center;
+  }
+
+.signup-form input{
+color: #999;
+border-radius: 3px;
+margin-bottom: 5px;
+font-size: 20px;
+padding: 10px;
+}
+.signup-form .form-group {
+margin-bottom: 20px;
+}
+.signup-form input[type="checkbox"] {
+margin-top: 7px;
+}
+.signup-form .btn {        
+font-size: 18px;
+font-weight: bold;		
+min-width: 140px;
+outline: none !important;
+}
+
+
+
+/* login css */
+.login-form {
+  width: 400px;
+  margin: 30px auto;
+}
+.login-form form {        
+  margin-bottom: 15px;
+  background: #f7f7f7;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+}
+.login-form h2 {
+  margin: 0 0 15px;
+}
+.form-control, .login-btn {
+  border-radius: 2px;
+}
+.input-group-prepend .fa {
+  font-size: 26px;
+ 
+}
+
+/* About css */
+
+
+h2 {
+color: #333;
+text-align: center;
+text-transform: uppercase;
+font-family: "Roboto", sans-serif;
+font-weight: bold;
+position: relative;
+margin-top: 1em!important;
+}
+.h2{
+margin-top: 1em!important;
+}
+h2::after {
+content: "";
+width: 100px;
+position: absolute;
+margin: 0 auto;
+height: 3px;
+background: #ffdc12;
+left: 0;
+right: 0;
+bottom: -10px;
+}
+.input{
+  background-color: #333;
+  width: 200px;
+  margin: 20px 100px;
+  color: seashell;
+  align-items: center;
+  text-align: center;
+}
+
+.field{
+  border: 2px solid red;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 22px;
+}
